@@ -17,7 +17,7 @@ fi
 DOCKER_COMPOSE_CMD="docker-compose"
 
 COMMAND="$1"
-RAW_GITHUB_URL="https://raw.githubusercontent.com/arvida42/jackettio/master"
+RAW_GITHUB_URL="https://raw.githubusercontent.com/joshbaldwin8250/jackettio-selfhost/main"
 DIR=$(dirname "$0")
 ENV_FILE="$DIR/.env.production"
 JACKETT_PASSWORD=""
